@@ -1,0 +1,80 @@
+.banner {
+    background: url(../img/banner.png) no-repeat center/ cover;
+    height: 750px;
+    width: 100%;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner__wrap-title {
+    font-family: 'Playfair';
+    font-size: 50px;
+    color: #fff;
+    background: #000000B2;
+    padding: 17px 60px;
+}
+
+.banner__wrap-text {
+    font-family: 'Playfair';
+    font-size: 22px;
+    color: #fff;
+    text-shadow: #00000061;
+}
+
+.banner__wrap-btn {
+    font-family: 'Playfair';
+    font-size: 12px;
+    color: #000;
+    background: #fff;
+    padding: 22px 35px;
+    border: none;
+    transition: 0.3s;
+}
+
+.banner__wrap-btn:hover{
+    background: #000000b2;
+    color: #fff;
+}
+
+@media screen and (max-width:660px) {
+    .banner__wrap-title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner__wrap-title {
+        font-size: 25px;
+    }
+    .banner__wrap-text {
+        font-size: 15px;
+    }
+    .banner__wrap-btn {
+        font-size: 8px;
+        padding: 12px 25px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .banner__wrap-title {
+        font-size: 15px;
+    }
+
+    .banner__wrap-text {
+        font-size: 10px;
+    }
+    .banner__wrap-btn {
+        font-size: 5px;
+        padding: 8px 10px;
+    }
+}
